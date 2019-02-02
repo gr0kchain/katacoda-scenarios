@@ -10,11 +10,8 @@ So let's run through some basic CLI instructions
 # Get Information relating to the chain
 `bitcoin-cli getblockchaininfo`{{execute}}
 
-# get a new address
-`bitcoin-cli getnewaddress`{{execute}}
-
 # mine a block
-`bitcoin-cli generatetoaddress <address>`{{execute}}
+`bitcoin-cli generate 101`{{execute}}
 
 # Check your balance
 `bitcoin-cli getbalance`{{execute}}
