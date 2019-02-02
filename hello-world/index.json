@@ -1,8 +1,8 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Bitcoin CLI Sandbox",
+  "description": "Here we provide you with your own bitcoin sandboxing environment. This environment is configured as a regtest network.",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "Play as much as you'd like",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
@@ -20,7 +20,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nLet's do some bitcoin\u001b[m\r\n"
   },
   "backend": {
     "imageid": "docker"
