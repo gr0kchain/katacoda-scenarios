@@ -1,7 +1,9 @@
 #!/bin/bash
-echo -ne '#####                     (33%)\r'
-sleep 2
-echo -ne '#############             (66%)\r'
-sleep 3
-echo -ne '#######################   (100%)\r'
-echo -ne '\n'
+i=1
+sp="/-\|"
+echo -n ' '
+while [ $(docker ps | wc -l) -eq 1 ];
+do
+    printf "\b${sp:i++%${#sp}:1}"
+    sleep 1
+done
