@@ -7,3 +7,4 @@ do
     printf "\b${sp:i++%${#sp}:1}"
     sleep 1
 done
+docker exec -it  bitcoind-node /bin/bash
