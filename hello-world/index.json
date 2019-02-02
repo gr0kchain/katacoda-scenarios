@@ -5,7 +5,7 @@
   "time": "Play as much as you'd like",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Bitcoin CLI",
       "text": "step1.md",
       "code": "fg.sh",
       "courseData": "init.sh"
