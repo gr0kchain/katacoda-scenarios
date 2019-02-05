@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "Bitcoin CLI Sandbox",
   "description": "Here we provide you with your own bitcoin sandboxing environment. This environment is configured as a regtest network.",
   "difficulty": "beginner",
@@ -23,6 +24,7 @@
             ]
     }
   },
+  "files": [],
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nLet's do some bitcoin\u001b[m\r\n"
