@@ -19,9 +19,15 @@
       "text": "finish.md"
     },
     "assets": {
+      "client": [{
+        "file": "loading.sh",
+        "target": "/home/scrapbook",
+        "chmod": "+x"
+      }],
       "host01": [{
         "file": "loading.sh",
-        "target": "~/"
+        "target": "~/",
+        "chmod": "+x"
       }]
     }
   },
