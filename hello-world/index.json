@@ -19,9 +19,11 @@
       "text": "finish.md"
     },
     "assets": {
-            "host01": [
-                {"file": "loading.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-            ]
+            "host01": [{
+              "file": "loading.sh", 
+              "target": "/usr/local/bin/", 
+              "chmod": "+x"
+            }]
     }
   },
   "files": [],
