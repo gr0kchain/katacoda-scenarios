@@ -19,10 +19,10 @@
       "text": "finish.md"
     },
     "assets": {
-            "host01": [{
-              "file": "loading.sh",
-              "target": "/usr/local/bin/"
-            }]
+      "host01": [{
+        "file": "loading.sh",
+        "target": "~/"
+      }]
     }
   },
   "files": [],
