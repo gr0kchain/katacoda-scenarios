@@ -7,8 +7,8 @@
     "steps": [{
       "title": "Bitcoin CLI",
       "text": "step1.md",
-      "code": "fg.sh",
-      "courseData": "init.sh"
+      "code": "foreground.sh",
+      "courseData": "background.sh"
     }],
     "intro": {
       "text": "intro.md",
