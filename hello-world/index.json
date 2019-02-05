@@ -19,7 +19,7 @@
     },
     "assets": {
             "host01": [
-                {"file": "assets/loading.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+                {"file": "loading.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
     }
   },
