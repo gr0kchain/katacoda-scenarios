@@ -33,7 +33,6 @@
   },
   "files": [],
   "environment": {
-    "showdashboard": true,
     "hideintro": true,
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nLet's do some bitcoin\u001b[m\r\n"
